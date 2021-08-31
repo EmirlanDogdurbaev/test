@@ -12187,12 +12187,15 @@ fieldset:disabled .btn {
 
 .services {
   padding: 0;
+  /* background-color: rgba(141, 219, 219, 0.651); */
+  /* opacity: 0.5; */
 }
 
 .services__list {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+ /* background-color: gray; */
 }
 
 .card-conatainer {
@@ -12203,7 +12206,7 @@ fieldset:disabled .btn {
 .services__list {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -12222,9 +12225,8 @@ fieldset:disabled .btn {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  width: 20rem;
-  height: 25em;
-
+  width: 15rem;
+  height: 16em;
   margin: 15px;
 }
 
