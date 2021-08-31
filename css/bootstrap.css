@@ -7853,6 +7853,9 @@ textarea.form-control-lg {
 .pb-16 {
   padding-bottom: 5rem !important;
 }
+.pb-8{
+  margin-top: -3rem !important ;
+}
 
 .mt-auto {
   margin-top: auto !important;
